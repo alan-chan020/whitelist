@@ -774,7 +774,14 @@ var RULES = [
         ".disquscdn.com",
         "ssl.gstatic.com",
         ".bcebos.com",
-        ".dummyimage.com"
+        ".dummyimage.com",
+        ".typescriptlang.org",
+        ".juejin.im",
+        ".clewm.net",
+        ".cli.im",
+        ".liantu.com",
+        ".ty-315.com",
+        ".xitu.io"
     ]
 ];
 
