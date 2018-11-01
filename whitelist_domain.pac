@@ -781,7 +781,8 @@ var RULES = [
         ".cli.im",
         ".liantu.com",
         ".ty-315.com",
-        ".xitu.io"
+        ".xitu.io",
+        ".jcloudcache.com"
     ]
 ];
 
