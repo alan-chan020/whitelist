@@ -782,7 +782,12 @@ var RULES = [
         ".liantu.com",
         ".ty-315.com",
         ".xitu.io",
-        ".jcloudcache.com"
+        ".jcloudcache.com",
+        ".yuledaily.com",
+        ".iqiyipic.com",
+        ".ksyungslb.com",
+        ".fancyapi.com",
+        ".qy.net"
     ]
 ];
 
