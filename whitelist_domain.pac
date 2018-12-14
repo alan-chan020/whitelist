@@ -377,6 +377,7 @@ var RULES = [
         ".renren.com",
         ".cnzz.com",
         ".douban.com",
+        ".doubanio.com",
         ".pengyou.com",
         ".58.com",
         ".alibaba.com",
