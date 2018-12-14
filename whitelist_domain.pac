@@ -788,7 +788,8 @@ var RULES = [
         ".ksyungslb.com",
         ".fancyapi.com",
         ".qy.net",
-        ".didispace.com"
+        ".didispace.com",
+        ".00cdn.com"
     ]
 ];
 
