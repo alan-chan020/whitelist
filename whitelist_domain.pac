@@ -791,7 +791,8 @@ var RULES = [
         ".fancyapi.com",
         ".qy.net",
         ".didispace.com",
-        ".00cdn.com"
+        ".00cdn.com",
+        ".4paradigm.com"
     ]
 ];
 
