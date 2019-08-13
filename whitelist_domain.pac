@@ -793,7 +793,12 @@ var RULES = [
         ".didispace.com",
         ".00cdn.com",
         ".4paradigm.com",
-        ".ubuntu.com"
+        ".ubuntu.com",
+        ".tongdun.net",
+        ".haplat.net",
+        ".disqus.com",
+        ".chinanetcenter.com",
+        ".geetest.com"
     ]
 ];
 
