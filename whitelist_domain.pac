@@ -824,7 +824,8 @@ var RULES = [
         ".zhimg.com",
         ".maxcdn.com",
         ".avoscloud.com",
-        ".geetest.com"
+        ".geetest.com",
+        ".51jingying.com"
     ]
 ];
 
