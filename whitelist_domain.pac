@@ -841,6 +841,7 @@ var RULES = [
         ".githubusercontent.com",
         ".githubassets.com",
         ".gstatic.com",
+        "live.github.com",
         ".sony.net",
         ".sony.com"
     ]
