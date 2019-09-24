@@ -839,7 +839,10 @@ var RULES = [
         ".xitongcheng.com",
         ".hao668.net",
         ".githubusercontent.com",
-        ".githubassets.com"
+        ".githubassets.com",
+        ".gstatic.com",
+        ".sony.net",
+        ".sony.com"
     ]
 ];
 
