@@ -843,7 +843,8 @@ var RULES = [
         ".gstatic.com",
         "live.github.com",
         ".sony.net",
-        ".sony.com"
+        ".sony.com",
+        "play.google.com"
     ]
 ];
 
