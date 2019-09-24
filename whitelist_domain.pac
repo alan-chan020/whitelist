@@ -825,7 +825,21 @@ var RULES = [
         ".maxcdn.com",
         ".avoscloud.com",
         ".geetest.com",
-        ".51jingying.com"
+        ".51jingying.com",
+        ".office365.com",
+        ".outlook.com",
+        ".skype.com",
+        ".olsvc.com",
+        ".skypeassets.com",
+        ".office.com",
+        ".akamaihd.net",
+        ".msauth.net",
+        ".windows5.online",
+        ".w10zj.com",
+        ".xitongcheng.com",
+        ".hao668.net",
+        ".githubusercontent.com",
+        ".githubassets.com"
     ]
 ];
 
