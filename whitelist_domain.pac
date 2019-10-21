@@ -844,7 +844,9 @@ var RULES = [
         "live.github.com",
         ".sony.net",
         ".sony.com",
-        "play.google.com"
+        "play.google.com",
+        ".lagou.com",
+        ".51cdn.com"
     ]
 ];
 
