@@ -10,40 +10,40 @@
 
                                                           */
 
-    /* * * * * * * * * * * * * * * * * * * * * * * * * * 
-     *                                                 *
-     *  一定要换成你的ip地址                           *
-     *  Replace your proxy ip-address:port here!!      *
-     *                                                 *
-     * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *                                                 *
+ *  一定要换成你的ip地址                           *
+ *  Replace your proxy ip-address:port here!!      *
+ *                                                 *
+ * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 var IP_ADDRESS = '127.0.0.1:10800';
 
-    /* * * * * * * * * * * * * * * * * * * * * * * * * * 
-     *                                                 *
-     * 代理类型 (翻墙一般适用 SOCKS 或 HTTPS)          *
-     * Proxy type                                      *
-     *                                                 *
-     * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *                                                 *
+ * 代理类型 (翻墙一般适用 SOCKS 或 HTTPS)          *
+ * Proxy type                                      *
+ *                                                 *
+ * * * * * * * * * * * * * * * * * * * * * * * * * */
 var PROXY_TYPE = 'SOCKS5';
 
-    // HTTPS 是用于 Chrome 的安全代理
-    // http://www.chromium.org/developers/design-documents/secure-web-proxy
+// HTTPS 是用于 Chrome 的安全代理
+// http://www.chromium.org/developers/design-documents/secure-web-proxy
 
-    /* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
 var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
 
 
-    // A very long list. Hopefully chrome will cache it.
+// A very long list. Hopefully chrome will cache it.
 
-    // Bypass top Chinese sites
-    // Sources:
-    // (1) Custom list
-    // (2) https://dl-web.dropbox.com/u/3241202/apps/chn-cdn/dnsmasq.server.conf - ihipop
-    // (3) @xream's whitelist
-    // (4) Alexa 500
+// Bypass top Chinese sites
+// Sources:
+// (1) Custom list
+// (2) https://dl-web.dropbox.com/u/3241202/apps/chn-cdn/dnsmasq.server.conf - ihipop
+// (3) @xream's whitelist
+// (4) Alexa 500
 
-    // Feel free to add or edit custom list
+// Feel free to add or edit custom list
 var RULES = [
     //cn
     [
@@ -846,7 +846,11 @@ var RULES = [
         ".sony.com",
         "play.google.com",
         ".lagou.com",
-        ".51cdn.com"
+        ".51cdn.com",
+        ".autonavi.com",
+        ".amap.com",
+        ".lgstatic.com",
+        ".geetest.com"
     ]
 ];
 
@@ -871,11 +875,11 @@ function FindProxyForURL(url, host) {
     function rule_filter(callback) {
         // IMPORTANT: Respect the order of RULES.
         for (var j = 0; j < RULES.length; j++) {
-            var rules=RULES[j]
+            var rules = RULES[j]
             for (var i = 0; i < rules.length; i++) {
-               if (callback(rules[i]) === true) {
-                   return true;
-               }
+                if (callback(rules[i]) === true) {
+                    return true;
+                }
             }
         }
         return false;
@@ -886,8 +890,8 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
     } else {
-            // if none of above cases, it is always safe to use the proxy
-            return PROXY_METHOD;
+        // if none of above cases, it is always safe to use the proxy
+        return PROXY_METHOD;
     }
 
 }
@@ -897,21 +901,21 @@ function FindProxyForURL(url, host) {
     MIT License
     Copyright (C) 2012 n0gfwall0@gmail.com
 
-    Permission is hereby granted, free of charge, to any person obtaining a 
-    copy of this software and associated documentation files (the "Software"), 
-    to deal in the Software without restriction, including without limitation 
-    the rights to use, copy, modify, merge, publish, distribute, sublicense, 
-    and/or sell copies of the Software, and to permit persons to whom the 
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the "Software"),
+    to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software, and to permit persons to whom the
     Software is furnished to do so, subject to the following conditions:
 
-    The above copyright notice and this permission notice shall be included in 
+    The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
     IN THE SOFTWARE.
 
