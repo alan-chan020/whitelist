@@ -755,6 +755,7 @@ var RULES = [
         ".juejin.im",
         ".xitu.io",
         ".acgvideo.com",
+        ".biliapi.net",
         ".xycdn.com",
         ".mukewang.com",
         ".imooc.com",
