@@ -254,6 +254,7 @@ var RULES = [
         ".mookie1.com",
         ".mosso.com",
         ".mozilla.org",
+        ".mozilla.net",
         ".my.cl.ly",
         ".nbweekly.com",
         ".ngacn.cc",
@@ -842,7 +843,6 @@ var RULES = [
         ".githubassets.com",
         ".gstatic.com",
         "live.github.com",
-        ".sony.net",
         ".sony.com",
         "play.google.com",
         ".lagou.com",
@@ -850,7 +850,10 @@ var RULES = [
         ".autonavi.com",
         ".amap.com",
         ".lgstatic.com",
-        ".geetest.com"
+        ".geetest.com",
+        ".166.net",
+        ".fhyx.hk",
+        ".xitu.io"
     ]
 ];
 
