@@ -853,7 +853,9 @@ var RULES = [
         ".geetest.com",
         ".166.net",
         ".fhyx.hk",
-        ".xitu.io"
+        ".xitu.io",
+        ".bangnixia.com",
+        ".ourdvsss.com"
     ]
 ];
 
