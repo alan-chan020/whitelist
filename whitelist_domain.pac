@@ -855,7 +855,8 @@ var RULES = [
         ".fhyx.hk",
         ".xitu.io",
         ".bangnixia.com",
-        ".ourdvsss.com"
+        ".ourdvsss.com",
+        ".yatsenglobal.com"
     ]
 ];
 
