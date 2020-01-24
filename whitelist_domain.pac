@@ -856,6 +856,7 @@ var RULES = [
         ".xitu.io",
         ".bangnixia.com",
         ".ourdvsss.com",
+        ".biliapi.net",
         ".yatsenglobal.com"
     ]
 ];
