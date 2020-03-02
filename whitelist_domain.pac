@@ -857,7 +857,8 @@ var RULES = [
         ".bangnixia.com",
         ".ourdvsss.com",
         ".biliapi.net",
-        ".yatsenglobal.com"
+        ".yatsenglobal.com",
+        ".perfectdiary.com"
     ]
 ];
 
