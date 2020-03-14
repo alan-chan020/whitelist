@@ -858,7 +858,13 @@ var RULES = [
         ".ourdvsss.com",
         ".biliapi.net",
         ".yatsenglobal.com",
-        ".perfectdiary.com"
+        ".perfectdiary.com",
+        ".qcloud.com",
+        ".smtcdns.net",
+        ".dz11.com",
+        ".bilivideo.com",
+        ".phncdn.com",
+        ".yunpanjingling.com"
     ]
 ];
 
