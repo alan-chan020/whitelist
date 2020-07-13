@@ -864,7 +864,15 @@ var RULES = [
         ".dz11.com",
         ".bilivideo.com",
         ".phncdn.com",
-        ".yunpanjingling.com"
+        ".yunpanjingling.com",
+        ".yjiyun.com",
+        ".lanhuapp.com",
+        ".processon.com",
+        ".idqqimg.com",
+        ".zhugeio.com",
+        ".zhugeapi.net",
+        ".mrdayu.cc",
+        ".alicdn.com"
     ]
 ];
 
