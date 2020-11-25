@@ -872,7 +872,8 @@ var RULES = [
         ".zhugeio.com",
         ".zhugeapi.net",
         ".mrdayu.cc",
-        ".alicdn.com"
+        ".alicdn.com",
+        ".sobot.com"
     ]
 ];
 
