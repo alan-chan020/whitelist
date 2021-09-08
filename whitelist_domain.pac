@@ -872,7 +872,14 @@ var RULES = [
         ".zhugeapi.net",
         ".mrdayu.cc",
         ".alicdn.com",
-        ".sobot.com"
+        ".sobot.com",
+        ".snssdk.com",
+        ".feishu.com",
+        ".feishu.cn",
+        ".bytegoofy.com",
+        ".byteoversea.com",
+        ".feishucdn.com",
+        ".pstatp.com"
     ]
 ];
 
