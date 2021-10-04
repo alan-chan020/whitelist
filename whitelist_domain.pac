@@ -879,7 +879,10 @@ var RULES = [
         ".bytegoofy.com",
         ".byteoversea.com",
         ".feishucdn.com",
-        ".pstatp.com"
+        ".pstatp.com",
+        ".miaoyun.cloud",
+        ".downk.cc",
+        ".sharepoint.com"
     ]
 ];
 
