@@ -882,7 +882,8 @@ var RULES = [
         ".pstatp.com",
         ".miaoyun.cloud",
         ".downk.cc",
-        ".sharepoint.com"
+        ".sharepoint.com",
+        ".ripic.xyz"
     ]
 ];
 
