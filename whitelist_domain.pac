@@ -885,7 +885,7 @@ var RULES = [
         ".sharepoint.com",
         ".ripic.xyz",
         ".taobao.hk",
-        ".jd.hk"
+        ".jd.hk",
         ".tmail.hk"
     ]
 ];
