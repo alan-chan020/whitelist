@@ -886,6 +886,7 @@ var RULES = [
         ".ripic.xyz",
         ".taobao.hk",
         ".jd.hk"
+        ".tmail.hk"
     ]
 ];
 
