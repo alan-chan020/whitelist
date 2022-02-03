@@ -887,7 +887,7 @@ var RULES = [
         ".taobao.hk",
         ".jd.hk",
         ".tmail.hk",
-                "cibntv.net"
+                ".cibntv.net"
     ]
 ];
 
