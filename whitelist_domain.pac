@@ -889,7 +889,13 @@ var RULES = [
         ".tmail.hk",
         ".cibntv.net",
         ".zhipin.com",
-        ".bosszhipin.com"
+        ".bosszhipin.com",
+        ".gitee.com",
+        ".modao.cc",
+        ".agora.io",
+        ".yuque.com",
+        ".easemob.com",
+        ".frontopbd.com"
     ]
 ];
 
