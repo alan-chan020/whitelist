@@ -895,7 +895,9 @@ var RULES = [
         ".agora.io",
         ".yuque.com",
         ".easemob.com",
-        ".frontopbd.com"
+        ".frontopbd.com",
+        "bytefcdnrd.com",
+        "edgesrv.com"
     ]
 ];
 
