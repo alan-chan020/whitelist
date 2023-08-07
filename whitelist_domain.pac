@@ -840,7 +840,6 @@ var RULES = [
         ".w10zj.com",
         ".xitongcheng.com",
         ".hao668.net",
-        ".githubassets.com",
         "live.github.com",
         ".sony.com",
         "play.google.com",
