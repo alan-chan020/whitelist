@@ -896,7 +896,8 @@ var RULES = [
         ".easemob.com",
         ".frontopbd.com",
         ".bytefcdnrd.com",
-        ".edgesrv.com"
+        ".edgesrv.com",
+        ".xf-yun.com"
     ]
 ];
 
