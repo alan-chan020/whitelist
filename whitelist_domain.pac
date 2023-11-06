@@ -898,7 +898,8 @@ var RULES = [
         ".bytefcdnrd.com",
         ".edgesrv.com",
         ".xf-yun.com",
-        ".ys7.com"
+        ".ys7.com",
+        ".biliimg.com"
     ]
 ];
 
