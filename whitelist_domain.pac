@@ -900,7 +900,10 @@ var RULES = [
         ".xf-yun.com",
         ".ys7.com",
         ".biliimg.com",
-        ".alibabacloud.com"
+        ".alibabacloud.com",
+        ".huaweicloud.com",
+        ".hikvision.com",
+        ".hikyun.com"
     ]
 ];
 
