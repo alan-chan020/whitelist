@@ -906,7 +906,16 @@ var RULES = [
         ".hikyun.com",
         ".sfbuy.com",
         ".volcengine.com",
-        ".doubao.com",
+        ".volceapplog.com",
+        ".volccdn.com",
+        ".zijieapi.com",
+        ".volcanicengine.com",
+        ".byteimg.com",
+        ".byted-static.com",
+        ".bytegoofy.com",
+        ".yhgfb-cn-static.com",
+        ".huoshanstatic.com",
+        ".sf-express.com",
         ".bytedance.com"
     ]
 ];
