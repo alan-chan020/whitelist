@@ -903,7 +903,11 @@ var RULES = [
         ".alibabacloud.com",
         ".huaweicloud.com",
         ".hikvision.com",
-        ".hikyun.com"
+        ".hikyun.com",
+        ".sfbuy.com",
+        ".volcengine.com",
+        ".doubao.com",
+        ".bytedance.com"
     ]
 ];
 
