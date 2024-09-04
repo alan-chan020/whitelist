@@ -916,7 +916,9 @@ var RULES = [
         ".yhgfb-cn-static.com",
         ".huoshanstatic.com",
         ".sf-express.com",
-        ".bytedance.com"
+        ".liblib.art",
+        ".tusiart.com",
+        ".runoob.com"
     ]
 ];
 
