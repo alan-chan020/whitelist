@@ -918,9 +918,9 @@ var RULES = [
         ".sf-express.com",
         ".liblib.art",
         ".tusiart.com",
-        ".runoob.com"
+        ".runoob.com",
         ".liblib.cloud",
-        ".howxm.com"
+        ".howxm.com",
     ]
 ];
 
