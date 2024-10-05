@@ -921,6 +921,8 @@ var RULES = [
         ".runoob.com",
         ".liblib.cloud",
         ".howxm.com",
+        ".bbicn.com",
+        ".uszcn.com",
     ]
 ];
 
