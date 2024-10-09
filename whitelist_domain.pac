@@ -923,6 +923,9 @@ var RULES = [
         ".howxm.com",
         ".bbicn.com",
         ".uszcn.com",
+        ".ngabbs.com",
+        ".frontop.com",
+        ".frontopbd.com",
     ]
 ];
 
