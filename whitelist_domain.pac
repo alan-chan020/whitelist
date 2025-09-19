@@ -926,7 +926,8 @@ var RULES = [
         ".ngabbs.com",
         ".frontop.com",
         ".frontopbd.com",
-        ".goofish.com"
+        ".goofish.com",
+        ".qiecdn.com"
     ]
 ];
 
